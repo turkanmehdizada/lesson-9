@@ -1,0 +1,159 @@
+body{
+    padding: 0 10px;
+}
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+body{
+    background: black;
+}
+
+.logo img{
+    width: 100px;
+   }
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+nav{
+    margin: auto;
+    padding-left: 200px;
+}
+
+nav #menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+#menu li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 550;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 400px;
+    background: url('/Img/background.jpg')center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .hero h1,p{
+    color: #fff;
+    opacity: 0.7;
+    line-height: 32px;
+    font-size: 18px;
+    background:black;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+
+  .hero button{
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(to right,pink , pink , violet ,pink);
+ }
+
+ section.cards{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background: black;
+}
+
+.cards div{
+    width: 250px;
+    height: 300px;
+    background: hsla(300, 9%, 58%, 0.699);
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px #fff;
+    margin-bottom: 20px;
+ }
+
+ .cards h2{
+    font-size: 32px;
+    text-align: center;
+ }
+
+ .cards p{
+    background: #9e8a9eb2;
+    border: 1px solid #9e8a9eb2;
+    border-radius: 8px;
+    text-align: center;
+ }
+
+ .cards button{
+    background: linear-gradient(to right,pink , pink , #885f88 ,pink); 
+}
+
+ .card1 img{
+    width: 250px;
+    padding: 30px 20px 20px 20px;
+ }
+
+ .card1, .card2, .card3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .card2 img{
+    width: 190px;
+    margin: auto;
+ }
+
+ .card3 img{
+    width: 170px;
+    margin: auto;
+ }
+
+ footer{
+    background: #9c169c;
+    padding-top: 50px;
+    width: 100%;
+    height: 150px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+ }
+
+ .icons i:hover{
+    color: red;
+    transform: scale(2);
+    transition: all 0.3s;
+    padding-bottom: 10px;
+ }
+
+
+
+ 
+
